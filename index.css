@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root{
+
+  --primary-text-color:#393232;
+  --secondary-text-color:#888;
+  --accent-color:#8800c7;
+}
+
+
+body {
+  margin: 0;
+  font-family:"Cabin",sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.container{
+
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 12px;
+  overflow: hidden;
+}
+a{
+
+  text-decoration: none;
+  color: white;
+}
+p{
+
+  color: var(--secondary-text-color);
+}
+h1,h2,h3,h4,h5,h6{
+  color: var(--primary-text-color);
+}
+.hover-link{
+text-align: center;
+  cursor: pointer;
+  border-radius: 4px;
+}
+.hover-link:hover{
+
+  background-color: rgb(125, 184, 165);
+}
+.hover-link:active{
+
+  background-color: antiquewhite;
+}
+.center{
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.btn-primary{
+
+  padding: 12px 16px;
+  background-color: var(--accent-color);
+  color: white;
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-weight: 700;
+  user-select: none;
+}
+.btn-primary:hover{
+  background-color: #450961;
+}
+.btn-primary:active{
+  background-color: #888;
+}
+ul{
+  list-style: none;
+}
